@@ -23,6 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FSharp\FSharp.csproj" />
-    <ProjectReference Include="..\Owin\Owin.csproj" />
+    <ProjectReference Include="..\Owin\MirrorSharp.Owin.csproj" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Git\experiments\microsoft.net\mirrorsharp" t="IncludeFlat">
+      <e p="Benchmarks" t="IncludeRecursive">
+        <e p="Benchmarks.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="Benchmarks.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Of.Json" t="Include">
+          <e p="ComplexObjectBenchmarks.cs" t="Include" />
+          <e p="JsonBenchmarksBase.cs" t="Include" />
+          <e p="WriteValueInt32Benchmarks.cs" t="Include" />
+          <e p="WriteValueStringBenchmarks.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SignatureHelpBenchmarks.cs" t="Include" />
+      </e>
+      <e p="Common" t="IncludeRecursive">
+        <e p="Advanced" t="Include">
+          <e p="FastJsonWriterExtensions.cs" t="Include" />
+          <e p="IExceptionLogger.cs" t="Include" />
+          <e p="IFastJsonWriter.cs" t="Include" />
+          <e p="IRoslynSession.cs" t="Include" />
+          <e p="ISetOptionFromClientExtension.cs" t="Include" />
+          <e p="ISlowUpdateExtension.cs" t="Include" />
+          <e p="IWorkSession.cs" t="Include" />
+          <e p="MirrorSharpRoslynOptions.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common.csproj" t="IncludeRecursive" />
+        <e p="Internal" t="Include">
+          <e p="Abstraction" t="Include">
+            <e p="CurrentCompletion.cs" t="Include" />
+            <e p="ILanguage.cs" t="Include" />
+            <e p="ILanguageSession.cs" t="Include" />
+          </e>
+          <e p="Argument.cs" t="Include" />
+          <e p="AsyncData.cs" t="Include" />
+          <e p="AsyncDataConvert.cs" t="Include" />
+          <e p="CharArrayString.cs" t="Include" />
+          <e p="CommandIds.cs" t="Include" />
+          <e p="Completion.cs" t="Include" />
+          <e p="Connection.cs" t="Include" />
+          <e p="CurrentSignatureHelp.cs" t="Include" />
+          <e p="CustomWorkspace.cs" t="Include" />
+          <e p="EncodingExtensions.cs" t="Include" />
+          <e p="FastConvert.cs" t="Include" />
+          <e p="FastJsonWriterExtensions.cs" t="Include" />
+          <e p="FastUtf8JsonWriter.cs" t="Include" />
+          <e p="Handlers" t="Include">
+            <e p="ApplyDiagnosticActionHandler.cs" t="Include" />
+            <e p="CompletionStateHandler.cs" t="Include" />
+            <e p="ICommandHandler.cs" t="Include" />
+            <e p="MoveCursorHandler.cs" t="Include" />
+            <e p="ReplaceTextHandler.cs" t="Include" />
+            <e p="RequestSelfDebugDataHandler.cs" t="Include" />
+            <e p="SetOptionsHandler.cs" t="Include" />
+            <e p="Shared" t="Include">
+              <e p="CompletionSupport.cs" t="Include" />
+              <e p="ICompletionSupport.cs" t="Include" />
+              <e p="ISignatureHelpSupport.cs" t="Include" />
+              <e p="ITypedCharEffects.cs" t="Include" />
+              <e p="SignatureHelpSupport.cs" t="Include" />
+              <e p="TypedCharEffects.cs" t="Include" />
+            </e>
+            <e p="SignatureHelpStateHandler.cs" t="Include" />
+            <e p="SlowUpdateHandler.cs" t="Include" />
+            <e p="TypeCharHandler.cs" t="Include" />
+          </e>
+          <e p="IConnectionOptions.cs" t="Include" />
+          <e p="ILanguageManagerOptions.cs" t="Include" />
+          <e p="IWorkSessionOptions.cs" t="Include" />
+          <e p="LanguageManager.cs" t="Include" />
+          <e p="MiddlewareBase.cs" t="Include" />
+          <e p="Nito.Deque.cs" t="Include" />
+          <e p="PooledGrowableArray.cs" t="Include" />
+          <e p="PreloadedAnalyzerAssemblyLoader.cs" t="Include" />
+          <e p="Reflection" t="Include">
+            <e p="ExpressionHelper.cs" t="Include" />
+            <e p="ISignatureHelpProviderWrapper.cs" t="Include" />
+            <e p="OrderableLanguageMetadataData.cs" t="Include" />
+            <e p="RoslynReflectionFast.cs" t="Include" />
+            <e p="RoslynTypes.cs" t="Include" />
+            <e p="SignatureHelpItemData.cs" t="Include" />
+            <e p="SignatureHelpItemsData.cs" t="Include" />
+            <e p="SignatureHelpParameterData.cs" t="Include" />
+            <e p="SignatureHelpProviderWrapper.cs" t="Include" />
+            <e p="SignatureHelpTriggerInfoData.cs" t="Include" />
+            <e p="SignatureHelpTriggerReason.cs" t="Include" />
+          </e>
+          <e p="Results" t="Include">
+            <e p="ICommandResultSender.cs" t="Include" />
+          </e>
+          <e p="Roslyn" t="Include">
+            <e p="CSharpLanguage.cs" t="Include" />
+            <e p="RoslynLanguageBase.cs" t="Include" />
+            <e p="RoslynSession.cs" t="Include" />
+          </e>
+          <e p="SelfDebug.cs" t="Include" />
+          <e p="TaskEx.cs" t="Include" />
+          <e p="WorkSession.cs" t="Include" />
+        </e>
+        <e p="MirrorSharpCSharpOptions.cs" t="Include" />
+        <e p="MirrorSharpOptions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="Common.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard1.5" t="Include">
+              <e p="Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FSharp" t="IncludeRecursive">
+        <e p="Advanced" t="Include">
+          <e p="FSharpFileSystem.cs" t="Include" />
+          <e p="FSharpParseAndCheckResults.cs" t="Include" />
+          <e p="FSharpProjectOptionsExtensions.cs" t="Include" />
+          <e p="FSharpTargetNames.cs" t="Include" />
+          <e p="FSharpVirtualFile.cs" t="Include" />
+          <e p="IFSharpSession.cs" t="Include" />
+          <e p="WorkSessionExtensions.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FSharp.csproj" t="IncludeRecursive" />
+        <e p="Internal" t="Include">
+          <e p="CustomFileSystem.cs" t="Include" />
+          <e p="FSharpLanguage.cs" t="Include" />
+          <e p="FSharpSession.cs" t="Include" />
+          <e p="LineColumnMap.cs" t="Include" />
+          <e p="NonDisposingStreamWrapper.cs" t="Include" />
+          <e p="SymbolTags.cs" t="Include" />
+        </e>
+        <e p="MirrorSharpFSharpOptions.cs" t="Include" />
+        <e p="MirrorSharpOptionsExtensions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="FSharp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MirrorSharp.sln" t="IncludeFlat" />
+      <e p="NuGet.Common.props" t="Include" />
+      <e p="Owin" t="IncludeRecursive">
+        <e p="AppBuilderExtensions.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Internal" t="Include">
+          <e p="Middleware.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="Owin.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Owin.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Owin.Demo" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="index.html" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="Owin.Demo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Owin.Demo.csproj" t="IncludeRecursive" />
+        <e p="package.json" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Web.config" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Solution Items" t="Include" />
+      <e p="Testing" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Internal" t="Include">
+          <e p="HandlerTestArgument.cs" t="Include" />
+          <e p="Results" t="Include">
+            <e p="ChangesResult.cs" t="Include" />
+            <e p="CompletionsItem.cs" t="Include" />
+            <e p="CompletionsResult.cs" t="Include" />
+            <e p="ResultChange.cs" t="Include" />
+            <e p="ResultSpan.cs" t="Include" />
+            <e p="SignaturesItem.cs" t="Include" />
+            <e p="SignaturesItemPart.cs" t="Include" />
+            <e p="SignaturesResult.cs" t="Include" />
+          </e>
+          <e p="StubCommandResultSender.cs" t="Include" />
+        </e>
+        <e p="MirrorSharpTestDriver.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="Testing.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard1.5" t="Include">
+              <e p="Testing.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Results" t="Include">
+          <e p="OptionsEchoResult.cs" t="Include" />
+          <e p="ResultSpan.cs" t="Include" />
+          <e p="SlowUpdateDiagnostic.cs" t="Include" />
+          <e p="SlowUpdateDiagnosticAction.cs" t="Include" />
+          <e p="SlowUpdateResult.cs" t="Include" />
+        </e>
+        <e p="Testing.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tests.Roslyn2" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp1.0" t="Include">
+              <e p="Tests.Roslyn2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Tests.Roslyn2.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tests.Roslyn2.Net46" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FSharpProjectOptionsExtensionsTests.cs" t="Include" />
+        <e p="FSharpTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="win" t="Include">
+                <e p="Tests.Roslyn2.Net46.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Tests.Roslyn2.Net46.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tests.Shared" t="IncludeRecursive">
+        <e p="ApplyDiagnosticActionHandlerTests.cs" t="Include" />
+        <e p="CompletionStateHandlerTests.cs" t="Include" />
+        <e p="ConnectionTests.cs" t="Include" />
+        <e p="FastUtf8JsonWriterTests.cs" t="Include" />
+        <e p="Internal" t="Include">
+          <e p="ObjectMembers.cs" t="Include" />
+          <e p="TrackingArrayPool.cs" t="Include" />
+        </e>
+        <e p="MirrorSharp.Tests.Shared.projitems" t="Include" />
+        <e p="MoveCursorHandlerTests.cs" t="Include" />
+        <e p="ReplaceTextHandlerTests.cs" t="Include" />
+        <e p="SetOptionsHandlerTests.cs" t="Include" />
+        <e p="SignatureHelpStateHandlerTests.cs" t="Include" />
+        <e p="SlowUpdateHandlerTests.cs" t="Include" />
+        <e p="Tests.Shared.shproj" t="IncludeRecursive" />
+        <e p="TypeCharHandlerTests.cs" t="Include" />
+      </e>
+      <e p="VisualBasic" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Internal" t="Include">
+          <e p="VisualBasicLanguage.cs" t="Include" />
+        </e>
+        <e p="MirrorSharpOptionsExtensions.cs" t="Include" />
+        <e p="MirrorSharpVisualBasicOptions.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net46" t="Include">
+              <e p="VisualBasic.AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="netstandard1.5" t="Include">
+              <e p="VisualBasic.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="VisualBasic.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebAssets" t="IncludeRecursive">
+        <e p=".brackets.json" t="Include" />
+        <e p=".eslintrc.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="imgsrcs" t="Include">
+          <e p="class.svg" t="Include" />
+          <e p="constant.svg" t="Include" />
+          <e p="delegate.svg" t="Include" />
+          <e p="enum.svg" t="Include" />
+          <e p="enummember.svg" t="Include" />
+          <e p="field.svg" t="Include" />
+          <e p="interface.svg" t="Include" />
+          <e p="keyword.svg" t="Include" />
+          <e p="method.svg" t="Include" />
+          <e p="module.svg" t="Include" />
+          <e p="namespace.svg" t="Include" />
+          <e p="property.svg" t="Include" />
+          <e p="structure.svg" t="Include" />
+          <e p="union.svg" t="Include" />
+          <e p="unnecessary.pdn" t="Include" />
+          <e p="unnecessary.png" t="Include" />
+          <e p="variable.svg" t="Include" />
+        </e>
+        <e p="mirrorsharp.css" t="Include" />
+        <e p="mirrorsharp.js" t="Include" />
+        <e p="mirrorsharp.less" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard1.0" t="Include">
+              <e p="WebAssets.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="tests" t="Include">
+          <e p=".eslintrc.json" t="Include" />
+          <e p="mirrorsharp.tests.js" t="Include" />
+          <e p="test-driver.js" t="Include" />
+        </e>
+        <e p="WebAssets.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\andrew.monteith\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_MirrorSharp.1366727840.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{C130C962-D17F-4741-B2B4-D74263BF380A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Owin", "Owin\Owin.csproj", "{00CC1A50-B233-4045-9540-CB2316808C1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MirrorSharp.Owin", "Owin\MirrorSharp.Owin.csproj", "{00CC1A50-B233-4045-9540-CB2316808C1B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAssets", "WebAssets\WebAssets.csproj", "{FF13139E-69D3-472E-B4FE-AC2623AD67B9}"
 EndProject
@@ -21,14 +21,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSharp", "FSharp\FSharp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Roslyn2.Net46", "Tests.Roslyn2.Net46\Tests.Roslyn2.Net46.csproj", "{7F531F1E-5AF6-4FC6-BF71-84EB00C1B1EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Demo", "Owin.Demo\Owin.Demo.csproj", "{3C2A0FC7-4485-4654-B3B2-5717A2F2C97A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Owin.Demo", "Owin.Demo\Owin.Demo.csproj", "{3C2A0FC7-4485-4654-B3B2-5717A2F2C97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualBasic", "VisualBasic\VisualBasic.csproj", "{C8076D77-4C5A-450E-AF3F-9E37A8B512D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualBasic", "VisualBasic\VisualBasic.csproj", "{C8076D77-4C5A-450E-AF3F-9E37A8B512D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9EC6CF09-4D36-4723-9548-060215C88E50}"
 	ProjectSection(SolutionItems) = preProject
 		NuGet.Common.props = NuGet.Common.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{E9009B66-9D05-4051-9244-8C6F1FA46761}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -77,8 +79,15 @@ Global
 		{C8076D77-4C5A-450E-AF3F-9E37A8B512D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8076D77-4C5A-450E-AF3F-9E37A8B512D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8076D77-4C5A-450E-AF3F-9E37A8B512D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9009B66-9D05-4051-9244-8C6F1FA46761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9009B66-9D05-4051-9244-8C6F1FA46761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9009B66-9D05-4051-9244-8C6F1FA46761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9009B66-9D05-4051-9244-8C6F1FA46761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C093C42-0D3D-4350-A5DA-43A9AFA0152D}
 	EndGlobalSection
 EndGlobal
